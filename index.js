@@ -50,7 +50,7 @@ const getVideoUrl = async (url, chatId) => {
 bot.command("start", (ctx) => {
   bot.telegram.sendMessage(
     ctx.chat.id,
-    "Welcome to YouTube video downloder, created By Pranav"
+    "Welcome to YouTube video downloder, created By Ferdi"
   );
 });
 
